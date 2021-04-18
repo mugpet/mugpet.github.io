@@ -1,4 +1,6 @@
-![image-20210418142953668](D:\code\mugpet.github.io\logseq\readme.assets\image-20210418142953668.png)
+![image-20210418143140229](readme.assets/image-20210418143140229.png)
+
+
 
 Add this line to your custom.css
 
