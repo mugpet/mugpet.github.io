@@ -97,37 +97,37 @@
     --ls-secondary-text-color: #343A40;
     --ls-title-text-color: var(--ls-primary-text-color);
   
-    --ls-link-text-color: #0075C4;
-    --ls-link-text-hover-color: #0093E2;
+    --ls-link-text-color: #0067E0;
+    --ls-link-text-hover-color: #0052af;
   
-    --ls-link-ref-text-color: #03AD85;
-    --ls-link-ref-text-hover-color: #1a537c;
+    --ls-link-ref-text-color: #eb570d;
+    --ls-link-ref-text-hover-color: #bb3e00;
   
-    --ls-tag-text-color: #366f6d;
+    --ls-tag-text-color: #0067E0;
     --ls-tag-text-hover-color: var(--ls-link-ref-text-hover-color);
     --ls-slide-background-color: #fff;
   
-    --ls-block-bullet-border-color: #B5B6B9;
+    --ls-block-bullet-border-color: #0067E0;
     --ls-block-bullet-color: #B5B6B9;
   
     --ls-block-highlight-color: #DDE4E5;
     --ls-selection-background-color: #B9F5E7;
   
-    --ls-page-checkbox-color: #74cee2;
-    --ls-page-checkbox-border-color: #74cee2;
+    --ls-page-checkbox-color: #F2F3F5;
+    --ls-page-checkbox-border-color: #0067E0;
   
   
     --ls-page-blockquote-color: var(--ls-primary-text-color);
   
-    --ls-page-blockquote-bg-color: #fbfaf8;
-    --ls-page-blockquote-border-color: #799bbc;
+    --ls-page-blockquote-bg-color: #F2F3F5;
+    --ls-page-blockquote-border-color: #0067E0;
   
     --ls-page-inline-code-bg-color: #f7f6f4;
     --ls-page-inline-code-color: var(--ls-primary-text-color);
   
-    --ls-scrollbar-foreground-color: rgba(0, 0, 0, 0.1);
-    --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
-    --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.2);
+    --ls-scrollbar-foreground-color: #CCCCCC;
+    --ls-scrollbar-background-color: #F2F2F2;
+    --ls-scrollbar-thumb-hover-color: #CCCCCC;
   
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-icon-color: #c1bdb7;
@@ -138,8 +138,8 @@
     --color-level-1: var(--ls-secondary-background-color);
     --color-level-2: var(--ls-tertiary-background-color);
     --color-level-3: var(--ls-quaternary-background-color);
-    --color-level-4: #d0e6fa;
-    --color-level-5: #bbdaf6;
+    --color-level-4: #499bf8;
+    --color-level-5: #0067E0;
 }
 
 .bullet-container.bullet-closed {
@@ -171,6 +171,12 @@ textarea {
 .dark-theme mark {
     background: #852d79;
     color: #fcfcfc;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.white-theme mark {
+    background: #fff025;
+    color: #070707;
     padding: 2px 4px;
     border-radius: 3px;
 }
