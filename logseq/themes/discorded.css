@@ -1,12 +1,13 @@
-
+/*@import url('https://mugpet.github.io/logseq/themes/discorded.css')
+  */
   
-.dark-theme, html[data-theme=dark] {
+  .dark-theme, html[data-theme=dark] {
     --ls-primary-background-color: #36393F;
     --ls-secondary-background-color:#2F3136;
     --ls-tertiary-background-color:  #40444B;
     --ls-quaternary-background-color: #27292D;
   
-    --ls-table-tr-even-background-color: #03333f;
+    --ls-table-tr-even-background-color: #01222a;
   
     --ls-active-primary-color: #F9F6F3;
     --ls-active-secondary-color: #FCFEF7;
@@ -14,7 +15,7 @@
     --ls-block-properties-background-color: #27292D;
   
   
-    --ls-block-ref-link-text-color: #1a6376;
+    --ls-block-ref-link-text-color: #0B68D9;
     --ls-search-background-color: linear-gradient( to right, #27292D 0, #40444B 200px, #36393F 100% );
     
   --ls-border-color: #71757C;
@@ -29,7 +30,7 @@
     --ls-link-text-color: #00B0F4;
     --ls-link-text-hover-color: var(--ls-active-secondary-color);
   
-    --ls-link-ref-text-color:#FC8E01;
+    --ls-link-ref-text-color:#ff8a05;
     --ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
     --ls-tag-text-color: var(--ls-link-text-color);
   
@@ -39,33 +40,35 @@
     --ls-block-bullet-border-color: #71757C;
     --ls-block-bullet-color: #71757C;
   
-    --ls-block-highlight-color: #464B52;
-    --ls-selection-background-color: #6f92bd;
+    --ls-block-highlight-color: #16212f;
+    --ls-selection-background-color: #0B68D9;
   
     --ls-page-checkbox-color: #2b383e6b;
-    --ls-page-checkbox-border-color: #8ab2dc;
+    --ls-page-checkbox-border-color: #0B6DE4;
   
     --ls-page-blockquote-color: var(--ls-primary-text-color);
-    --ls-page-blockquote-bg-color: #2F3136;
-    --ls-page-blockquote-border-color: #EB6420;
+    --ls-page-blockquote-bg-color: #27282D;
+    --ls-page-blockquote-border-color: #eb570d;
   
-    --ls-page-inline-code-color: #F1C21E;
+    --ls-page-inline-code-color: #eebb03;
     --ls-page-inline-code-bg-color: #01222a;
   
-    --ls-scrollbar-foreground-color: rgba(255, 255, 255, 0.05);
-    --ls-scrollbar-background-color: rgba(30, 60, 67, 0.9);
-    --ls-scrollbar-thumb-hover-color: rgba(255, 255, 255, 0.2);
+    --ls-scrollbar-foreground-color: #202225;
+    --ls-scrollbar-background-color: #2E3338;
+    --ls-scrollbar-thumb-hover-color: #202225;
+  
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-icon-color: var(--ls-link-text-color);
     --ls-search-icon-color: var(--ls-link-text-color);
     --ls-a-chosen-bg: var(--ls-secondary-background-color);
     --ls-right-sidebar-code-bg-color: #04303c;
+  
     --color-level-1: var(--ls-secondary-background-color);
     --color-level-2: var(--ls-tertiary-background-color);
     --color-level-3: var(--ls-quaternary-background-color);
-    --color-level-4: #195d6c;
-    --color-level-5: #266c7d;
-    --color-level-6: #3a7e8e;
+    --color-level-4: #1d1f22;
+    --color-level-5: #2F3136;
+    --color-level-6: #36393F;
 }
 
 
@@ -146,8 +149,9 @@
 
 
 .form-checkbox {
-    color: var(--ls-page-checkbox-color,#6093a0) !important;
-    background-color: var(--ls-primary-background-color) !important;
+    color: var(--ls-page-checkbox-color) !important;
+    background-color: none !important;
+/*    background-color: var(--ls-primary-background-color) !important;*/
     border-color: var(--ls-page-checkbox-border-color) !important;
     border: 1px solid var(--ls-page-checkbox-border-color) !important;
     border-radius: 3px !important;
@@ -165,8 +169,8 @@ textarea {
     padding: 2px;
 }
 .dark-theme mark {
-    background: #704600;
-    color: #F9EBCE;
+    background: #852d79;
+    color: #fcfcfc;
     padding: 2px 4px;
     border-radius: 3px;
 }
