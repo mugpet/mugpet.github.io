@@ -1,4 +1,5 @@
 
+  
 .dark-theme, html[data-theme=dark] {
     --ls-primary-background-color: #36393F;
     --ls-secondary-background-color:#2F3136;
@@ -110,7 +111,9 @@
     --ls-selection-background-color: #B9F5E7;
   
     --ls-page-checkbox-color: #74cee2;
-    --ls-page-checkbox-border-color: var(--ls-page-checkbox-color);
+    --ls-page-checkbox-border-color: #74cee2;
+  
+  
     --ls-page-blockquote-color: var(--ls-primary-text-color);
   
     --ls-page-blockquote-bg-color: #fbfaf8;
@@ -145,9 +148,12 @@
 .form-checkbox {
     color: var(--ls-page-checkbox-color,#6093a0) !important;
     background-color: var(--ls-primary-background-color) !important;
-    border-color: var(--ls-page-checkbox-border-color,#6093a0) !important;
-    border: 1px solid var(--ls-page-checkbox-border-color,#6093a0) !important;
+    border-color: var(--ls-page-checkbox-border-color) !important;
+    border: 1px solid var(--ls-page-checkbox-border-color) !important;
     border-radius: 3px !important;
+}
+.form-checkbox:checked {
+    background-color: var(--ls-page-checkbox-border-color) !important;
 }
 
 textarea {
