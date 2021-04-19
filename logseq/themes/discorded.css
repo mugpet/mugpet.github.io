@@ -1,6 +1,7 @@
-/*@import url('https://mugpet.github.io/logseq/themes/discorded.css')
-  */
-  
+body {
+  --ls-page-text-size: 0.95em;
+}
+
   .dark-theme, html[data-theme=dark] {
     --ls-primary-background-color: #36393F;
     --ls-secondary-background-color:#2F3136;
@@ -142,6 +143,14 @@
     --color-level-5: #0067E0;
 }
 
+
+h1.title {
+    margin-bottom: 1.5rem;
+    color: var(--ls-title-text-color,#222);
+    font-size: var(--ls-page-title-size,36px);
+    font-weight: 500;
+}
+
 .bullet-container.bullet-closed {
     background-color: var(--ls-block-bullet-border-color);
     /*border: 1px solid var(--ls-block-bullet-color);*/
@@ -187,6 +196,8 @@ textarea {
     padding: 2px;
 }
 
+/*
 #main-content-container {
-   /* font-size: 0.9em;*/
+    font-size: 0.9em;
 }
+*/
