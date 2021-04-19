@@ -1,3 +1,6 @@
+/*@import url('https://mugpet.github.io/logseq/themes/discorded.css')*/
+
+
 body {
   --ls-page-text-size: 0.95em;
 }
@@ -141,6 +144,8 @@ body {
     --color-level-3: var(--ls-quaternary-background-color);
     --color-level-4: #499bf8;
     --color-level-5: #0067E0;
+
+
 }
 
 
@@ -168,6 +173,12 @@ h1.title {
 .form-checkbox:checked {
     background-color: var(--ls-page-checkbox-border-color) !important;
 }
+
+.shadow-lg {
+    --tw-shadow: 0 1px 0px 1px var(--ls-quaternary-background-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
 
 textarea {
   border-radius: 6px;
