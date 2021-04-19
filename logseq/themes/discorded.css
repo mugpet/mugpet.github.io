@@ -139,7 +139,7 @@ h1.title {
 
 .form-checkbox {
     color: var(--ls-page-checkbox-color) !important;
-    background-color: transperant !important;
+    background-color: transparent !important;
 /*    background-color: var(--ls-primary-background-color) !important;*/
     border-color: var(--ls-page-checkbox-border-color) !important;
     border: 1px solid var(--ls-page-checkbox-border-color) !important;
