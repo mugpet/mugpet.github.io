@@ -2,6 +2,11 @@ body {
   --ls-page-text-size: 0.95em;
 }
 
+.cp__right-sidebar {
+  --ls-page-text-size: 0.9em;
+}
+
+
   .dark-theme, html[data-theme=dark] {
     --ls-primary-background-color: #36393F;
     --ls-secondary-background-color:#2F3136;
