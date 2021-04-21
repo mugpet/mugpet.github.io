@@ -3,7 +3,7 @@ body {
 }
 
 .cp__right-sidebar {
-  --ls-page-text-size: 0.9em;
+  font-size: 0.9em;
 }
 
 
