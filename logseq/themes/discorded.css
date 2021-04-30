@@ -179,10 +179,10 @@ textarea {
     border-radius: 3px;
 }
 .white-theme mark {
-    background: #ffa500ad;
+    background: #ffeb00;
     color: #000000;
     padding: 1px 2px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .white-theme .editor-wrapper {
