@@ -1,8 +1,10 @@
-/*
+
 body {
-  --ls-page-text-size: 0.95em;
+/*   --ls-page-text-size: 0.95em; */
+  font-weight: 500;
 }
 
+/*
 .cp__right-sidebar {
   font-size: 0.9em;
 }
@@ -95,7 +97,7 @@ body {
     --ls-secondary-border-color: #e2e2e2;
     --ls-guideline-color: rgba(46, 27, 5, 0.08);
     --ls-menu-hover-color: var(--ls-a-chosen-bg);
-    --ls-primary-text-color: #454a4e;
+    --ls-primary-text-color: #575c63;
     --ls-secondary-text-color: #4a4d50;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: #003fb1;
@@ -187,6 +189,10 @@ textarea {
     background: #fafafa;
   /*font-family: monospace;*/
     padding: 2px;
+}
+
+.blocks-properties {
+    border-radius: 6px;
 }
 
 /*
