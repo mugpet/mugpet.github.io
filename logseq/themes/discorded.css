@@ -175,13 +175,13 @@ textarea {
 .dark-theme mark {
     background: #b94400;
     color: #fcfcfc;
-    padding: 2px 4px;
+    padding: 1px 2px;
     border-radius: 3px;
 }
 .white-theme mark {
-    background: #fff025;
+    background: #ffd400;
     color: #070707;
-    padding: 2px 4px;
+    padding: 1px 2px;
     border-radius: 3px;
 }
 
