@@ -83,7 +83,7 @@ body .white-theme {
 
 
 .white-theme, html[data-theme=light] {
-    --ls-primary-background-color: #fefefe;
+    --ls-primary-background-color: #ffffff;
     --ls-secondary-background-color: #f5f5f5;
     --ls-tertiary-background-color: #EBEDEF;
     --ls-quaternary-background-color: #E3E5E8;
