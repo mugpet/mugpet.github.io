@@ -152,6 +152,7 @@
     
     
     body {
+        --ls-main-content-max-width: 800px;
         /* font-family: 'Boogaloo', cursive; */
         /* font-family: 'Bubblegum Sans', cursive; */
         /* font-family: 'Sedgwick Ave', cursive; */
