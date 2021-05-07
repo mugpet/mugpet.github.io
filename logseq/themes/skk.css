@@ -1,3 +1,7 @@
+/* @import url('https://mugpet.github.io/logseq/themes/skk.css')
+*/
+
+
 
 
 /* @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Mukta:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap'); */
@@ -151,7 +155,8 @@
         /* font-family: 'Boogaloo', cursive; */
         /* font-family: 'Bubblegum Sans', cursive; */
         /* font-family: 'Sedgwick Ave', cursive; */
-        /* font-weight: 500 !important; */
+        font-weight: 500 !important;
+        font-size: 18px;
     }
 
 
@@ -192,7 +197,7 @@
     
     .ls-block h2 {
         font-family: 'Bubblegum Sans', cursive;
-        font-size: 1.5em; 
+        font-size: 1.7em; 
         margin: 0;
         margin-top: -4px !important;
     }
