@@ -157,7 +157,7 @@
 
     #main-content-container {
         content: "";
-        background-image: url("/apps/logseq/assets/SKK Logo stor.png");
+        background-image: url("/logseq/themes/SKK Logo stor.png");
         background-color: inherit;
         background-repeat: no-repeat;
         /* background-size: 800px;  */ 
