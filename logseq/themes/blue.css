@@ -1,82 +1,61 @@
 /* @import url('https://mugpet.github.io/logseq/themes/skk.css') */
- /*@import url('https://mugpet.github.io/logseq/themes/palelaguna.css')*/
+ /* @import url('https://mugpet.github.io/logseq/themes/palelaguna.css') */
 
 
- 
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Mukta:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
     
 .dark-theme, html[data-theme=dark] {
-  --ls-primary-background-color: #112c5f;
-  --ls-secondary-background-color: #051f4e;
-  --ls-tertiary-background-color:  #1d324b;
-  --ls-quaternary-background-color: #1c2c50;
-
-  --ls-table-tr-even-background-color: #0000004d;
-
-  --ls-active-primary-color: #ffae00;
-  --ls-active-secondary-color: #FCFEF7;
-
-  --ls-block-properties-background-color: #000a2081;
-
-
-  --ls-block-ref-link-text-color: #5e76ff;
-  --ls-search-background-color: linear-gradient( to right, #071d3a 0, #0a2a52 200px, #071d3a 100% );
-  
+--ls-primary-background-color: #195196;
+--ls-secondary-background-color: #003c74;
+--ls-tertiary-background-color: #003261;
+--ls-quaternary-background-color: #004c8e;
+--ls-table-tr-even-background-color: #14498a;
+--ls-active-primary-color: #ffae00;
+--ls-active-secondary-color: #FCFEF7;
+--ls-block-properties-background-color: #0013276b;
+--ls-block-ref-link-text-color: #63cdff;
+--ls-search-background-color: linear-gradient( to right, #071d3a 0, #0a2a52 200px, #071d3a 100% );
 --ls-border-color: #1a2a44;
-  --ls-secondary-border-color: #121c2c;
-  --ls-menu-hover-color: var(--ls-secondary-background-color);
-
-  --ls-primary-text-color: #d7dee2;
-  --ls-secondary-text-color: #c8d9e2;
-
-  --ls-title-text-color: #ffffff;
-  --ls-link-text-color: #82c7ff;
-  --ls-link-text-hover-color: var(--ls-active-secondary-color);
-
-  --ls-link-ref-text-color:#a5f6fc;
-  --ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
-
-
-  --ls-tag-text-color: #ff60f2;
-  --ls-tag-text-hover-color: var(--ls-link-text-hover-color);
-
-  --ls-slide-background-color: var(--ls-primary-background-color);
-
-  --ls-guideline-color: #354974;
-  --ls-block-bullet-border-color: #5790b6;
-  --ls-block-bullet-color: #354974;
-
-  --ls-block-highlight-color: #041b42c5;
-  --ls-selection-background-color: #1357aab2;
-
-  --ls-page-checkbox-color: #42ffe0;
-  --ls-page-checkbox-border-color: #5068d1;
-
-  --ls-page-blockquote-color: var(--ls-primary-text-color);
-  --ls-page-blockquote-bg-color: #060a166c;
-  --ls-page-blockquote-border-color: #00b8e6;
-
-  --ls-page-inline-code-color: #eea403;
-  --ls-page-inline-code-bg-color: #01222a;
-
-  --ls-scrollbar-foreground-color: #2c467e5d;
-  --ls-scrollbar-background-color: #112c5f4b;
-  --ls-scrollbar-thumb-hover-color: #a200ff;
-
-  --ls-head-text-color: var(--ls-link-text-color);
-  --ls-icon-color: var(--ls-link-text-color);
-  --ls-search-icon-color: var(--ls-link-text-color);
-  --ls-a-chosen-bg: var(--ls-secondary-background-color);
-  --ls-right-sidebar-code-bg-color: #04303c;
-
-  --color-level-1: var(--ls-secondary-background-color);
-  --color-level-2: var(--ls-tertiary-background-color);
-  --color-level-3: var(--ls-quaternary-background-color);
-  --color-level-4: #ffc400;
-  --color-level-5: #18a05c;
-  --color-level-6: #006e3b;
+--ls-secondary-border-color: #121c2c;
+--ls-menu-hover-color: var(--ls-secondary-background-color);
+--ls-primary-text-color: #e5f0f7;
+--ls-secondary-text-color: #deebf3;
+--ls-title-text-color: #ffffff;
+--ls-link-text-color: #4bbdff;
+--ls-link-text-hover-color: var(--ls-active-secondary-color);
+--ls-link-ref-text-color: #fff04c;
+--ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
+--ls-tag-text-color: #ffd800;
+--ls-tag-text-hover-color: var(--ls-link-text-hover-color);
+--ls-slide-background-color: var(--ls-primary-background-color);
+--ls-guideline-color: #2e7fca;
+--ls-block-bullet-border-color: #2e7fca;
+--ls-block-bullet-color: #2e7fca;
+--ls-block-highlight-color: #08234a4f;
+--ls-selection-background-color: #3372c0b2;
+--ls-page-checkbox-color: #81ffea;
+--ls-page-checkbox-border-color: #21a2dd;
+--ls-page-blockquote-color: var(--ls-primary-text-color);
+--ls-page-blockquote-bg-color: #131423b8;
+--ls-page-blockquote-border-color: #e69200;
+--ls-page-inline-code-color: #eea403;
+--ls-page-inline-code-bg-color: #01222a;
+--ls-scrollbar-foreground-color: #08498a;
+--ls-scrollbar-background-color: #19519600;
+--ls-scrollbar-thumb-hover-color: #e2ff00;
+--ls-head-text-color: var(--ls-link-text-color);
+--ls-icon-color: var(--ls-link-text-color);
+--ls-search-icon-color: var(--ls-link-text-color);
+--ls-a-chosen-bg: var(--ls-secondary-background-color);
+--ls-right-sidebar-code-bg-color: #002e56;
+--color-level-1: var(--ls-secondary-background-color);
+--color-level-2: var(--ls-tertiary-background-color);
+--color-level-3: var(--ls-quaternary-background-color);
+--color-level-4: #ffc400;
+--color-level-5: #18a05c;
+--color-level-6: #006e3b;
 }
 
 
@@ -161,7 +140,6 @@ h1, h2, h3, h4, h5 {
   color: var(--ls-title-text-color,#222);
   font-family: 'Jura', sans-serif;
   font-weight: 700 !important;
-  /* margin-top: 0px !important;         */
 }
 
 h1.title {
@@ -207,18 +185,14 @@ border-radius: 6px;
 /* dark theme */
 
 .dark-theme .editor-wrapper {
-  background: #0a1c3875;
+  background: #0a326d38;
   padding: 0px;
 }
 .dark-theme mark {
-  background: #9c0068;
-  color: #fcfcfc;
+  background: #af137b;
+  color: #ffffff;
   padding: 1px 2px;
-  border-radius: 3px;
-}
-.dark-theme .marker-switch {
-  color: var(--ls-page-checkbox-border-color);
-  opacity: 0.7;
+  border-radius: 4px;
 }
 .dark-theme a.tag {
   font-size: 14px;
@@ -231,13 +205,26 @@ border-radius: 6px;
   opacity: 1;
 
   /* opacity: var(--ls-tag-text-opacity,.8); */
+  
+}
+.dark-theme .marker-switch  {
+  /* color: var(--ls-page-checkbox-border-color); */
+  color: inherit;
+  border-radius: 8px;
+  background: var(--ls-block-properties-background-color);
+  opacity: 0.8;
+  font-size: 0.6em;
+}
+.dark-theme .todo {
+  color: #ccf3fa;
+  /* font-weight: 600; */
 }
 .dark-theme .doing {
-  color: #b9c6ff;
+  color: #ffffff;
   /* font-weight: 600; */
 }
 .dark-theme .done {
-  color: #9596c9;
+  color: #6da3cf;
   text-decoration: none;
 }
 
@@ -269,3 +256,4 @@ border-radius: 6px;
   font-size: 0.9em;
 }
 */
+
